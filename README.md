@@ -3,7 +3,7 @@
 Present, using the Vagrant environment, a monitoring system. The system should be deployed via bash scripts or Ansible role/playbook (provisioning). 
 Requirements: 
 
-● The system consists of two virtual machines. 
+● The system consists of two virtual machines. \
 ● The first virtual machine contains Prometheus, Alert manager, Grafana, and node exporter. 
 ● The second virtual machine contains only the node exporter. 
 ● The system should be automatically deployed from the host level (user’s computer), without the need for manual execution of any step on the virtual machines. 
