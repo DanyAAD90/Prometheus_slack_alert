@@ -10,4 +10,4 @@ Requirements:
 ● The task will be considered completed when, after performing provisioning from the host level (user’s computer), it will be possible to: \
 ○ log into the Grafana panel, add dashboards from the online library, and view metrics from both hosts, \
 ○ observe any alert, preferably on the Slack platform. \
-● For the purposes of the task, the alert rules configuration can be set to a minimum, e.g., 5% CPU usage. \
+● For the purposes of the task, the alert rules configuration can be set to a minimum, e.g., 5% CPU usage.
