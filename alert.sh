@@ -3,15 +3,10 @@
 cd ~/Downloads
 
 wget https://github.com/prometheus/alertmanager/releases/download/v0.22.2/alertmanager-0.22.2.linux-amd64.tar.gz
-
 tar xzf alertmanager-0.22.2.linux-amd64.tar.gz
-
 sudo mv -v alertmanager-0.22.2.linux-amd64 /opt/alertmanager
-
 sudo chown -Rfv root:root /opt/alertmanager
-
 sudo mkdir -v /opt/alertmanager/data
-
 sudo chown -Rfv prometheus:prometheus /opt/alertmanager/data
 
 #sudo nano /etc/systemd/system/alertmanager.service
