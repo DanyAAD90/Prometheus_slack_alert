@@ -1,7 +1,6 @@
-## Task Description 
+## Prometheus monitoring into the slack alert
 
-Present, using the Vagrant environment, a monitoring system. The system should be deployed via bash scripts or Ansible role/playbook (provisioning). 
-Requirements: 
+Using Vagrant environment and bash scripts for provisioning, I have created monitoring environment. This context meet the requirements:
 
 ● The system consists of two virtual machines. \
 ● The first virtual machine contains Prometheus, Alert manager, Grafana, and node exporter. \
